@@ -4,6 +4,8 @@
 #include<QTextStream>
 #include<QMessageBox>
 #include<QFileDialog>
+#include<QProcess>
+#include<QString>
 
 demoapp::demoapp(QWidget *parent) :
     QMainWindow(parent),
@@ -19,7 +21,7 @@ demoapp::~demoapp()
 
 void demoapp::on_pushButton_2_clicked()
 {
-    QFile usbfile(".//logs//usblogs.txt");    /*write your file's path*/
+    QFile usbfile(".//usblogs.txt");    /*write your file's path*/
     if(!usbfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",usbfile.errorString());
     QTextStream usbobj(&usbfile);
@@ -28,7 +30,7 @@ void demoapp::on_pushButton_2_clicked()
 
 void demoapp::on_pushButton_3_clicked()
 {
-    QFile wififile(".//logs//wifinetworklogs.txt");   /*write your file's path*/
+    QFile wififile(".//wifinetworklogs.txt");   /*write your file's path*/
     if(!wififile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",wififile.errorString());
     QTextStream wifiobj(&wififile);
@@ -37,7 +39,7 @@ void demoapp::on_pushButton_3_clicked()
 
 void demoapp::on_pushButton_4_clicked()
 {
-    QFile lidfile(".//logs//lid.txt");   /*write your file's path*/
+    QFile lidfile(".//lid.txt");   /*write your file's path*/
     if(!lidfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",lidfile.errorString());
     QTextStream lidobj(&lidfile);
@@ -46,7 +48,7 @@ void demoapp::on_pushButton_4_clicked()
 
 void demoapp::on_pushButton_clicked()
 {
-    QFile sudofile(".//logs//sudo_demo.txt");   /*write your file's path*/
+    QFile sudofile(".//sudo_demo.txt");   /*write your file's path*/
     if(!sudofile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",sudofile.errorString());
     QTextStream sudoobj(&sudofile);
@@ -55,7 +57,7 @@ void demoapp::on_pushButton_clicked()
 
 void demoapp::on_pushButton_5_clicked()
 {
-    QFile blfile(".//logs//bluetoothlogs.txt");   /*write your file's path*/
+    QFile blfile(".//bluetoothlogs.txt");   /*write your file's path*/
     if(!blfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",blfile.errorString());
     QTextStream blobj(&blfile);
@@ -64,7 +66,7 @@ void demoapp::on_pushButton_5_clicked()
 
 void demoapp::on_pushButton_6_clicked()
 {
-    QFile syspfile(".//logs//syspower.txt");   /*write your file's path*/
+    QFile syspfile(".//syspower.txt");   /*write your file's path*/
     if(!syspfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",syspfile.errorString());
     QTextStream syspobj(&syspfile);
@@ -73,7 +75,7 @@ void demoapp::on_pushButton_6_clicked()
 
 void demoapp::on_pushButton_7_clicked()
 {
-    QFile sysupfile(".//logs//new_user_id.txt");   /*write your file's path*/
+    QFile sysupfile(".//new_user_id.txt");   /*write your file's path*/
     if(!sysupfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",sysupfile.errorString());
     QTextStream sysupobj(&sysupfile);
@@ -83,7 +85,7 @@ void demoapp::on_pushButton_7_clicked()
 
 void demoapp::on_pushButton_8_clicked()
 {
-    QFile eathfile(".//logs//eathernetactivationlogs.txt");   /*write your file's path*/
+    QFile eathfile(".//eathernetactivationlogs.txt");   /*write your file's path*/
     if(!eathfile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",eathfile.errorString());
     QTextStream eathobj(&eathfile);
@@ -93,7 +95,7 @@ void demoapp::on_pushButton_8_clicked()
 
 void demoapp::on_pushButton_9_clicked()
 {
-    QFile apafile(".//logs//apache2serverlogs.txt");   /*write your file's path*/
+    QFile apafile(".//apache2serverlogs.txt");   /*write your file's path*/
     if(!apafile.open(QIODevice::ReadOnly))
             QMessageBox::information(0,"info",apafile.errorString());
     QTextStream apaobj(&apafile);
@@ -101,3 +103,8 @@ void demoapp::on_pushButton_9_clicked()
 }
 
 
+
+void demoapp::on_pushButton_10_clicked()
+{
+    QProcess::startDetached( "//bin//sh", QStringList() << ".//new.sh");
+}

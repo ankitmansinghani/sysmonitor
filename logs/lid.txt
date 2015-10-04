@@ -1,0 +1,7 @@
+Oct  4 03:04:18 villain-Lenovo-G580 systemd-logind[697]: Lid closed.
+Oct  4 03:04:19 villain-Lenovo-G580 systemd-logind[697]: Lid opened.
+Oct  4 11:56:08 villain-Lenovo-G580 systemd-logind[795]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Oct  4 12:48:37 villain-Lenovo-G580 systemd-logind[795]: Lid closed.
+Oct  4 13:26:10 villain-Lenovo-G580 systemd-logind[795]: Lid opened.
+Oct  4 14:45:11 villain-Lenovo-G580 systemd-logind[795]: Lid closed.
+Oct  4 14:45:12 villain-Lenovo-G580 systemd-logind[795]: Lid opened.

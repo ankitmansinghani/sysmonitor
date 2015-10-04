@@ -1,0 +1,38 @@
+Oct  4 03:05:32 villain-Lenovo-G580 su[5644]: Successful su for villain by root
+Oct  4 03:05:32 villain-Lenovo-G580 su[5644]: + ??? root:villain
+Oct  4 03:05:32 villain-Lenovo-G580 su[5644]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 03:05:35 villain-Lenovo-G580 su[5644]: pam_unix(su:session): session closed for user villain
+Oct  4 11:56:27 villain-Lenovo-G580 su[1884]: Successful su for villain by root
+Oct  4 11:56:27 villain-Lenovo-G580 su[1884]: + ??? root:villain
+Oct  4 11:56:27 villain-Lenovo-G580 su[1884]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 11:56:33 villain-Lenovo-G580 su[1884]: pam_unix(su:session): session closed for user villain
+Oct  4 13:28:30 villain-Lenovo-G580 sudo:  villain : TTY=pts/1 ; PWD=/etc/mysql ; USER=root ; COMMAND=/bin/su
+Oct  4 13:28:30 villain-Lenovo-G580 sudo: pam_unix(sudo:session): session opened for user root by villain(uid=0)
+Oct  4 13:28:30 villain-Lenovo-G580 su[3635]: Successful su for root by root
+Oct  4 13:28:30 villain-Lenovo-G580 su[3635]: + /dev/pts/1 root:root
+Oct  4 13:28:30 villain-Lenovo-G580 su[3635]: pam_unix(su:session): session opened for user root by villain(uid=0)
+Oct  4 13:29:19 villain-Lenovo-G580 su[3635]: pam_unix(su:session): session closed for user root
+Oct  4 13:29:19 villain-Lenovo-G580 sudo: pam_unix(sudo:session): session closed for user root
+Oct  4 13:31:09 villain-Lenovo-G580 sudo:  villain : TTY=pts/1 ; PWD=/etc/mysql ; USER=root ; COMMAND=/bin/su
+Oct  4 13:31:09 villain-Lenovo-G580 sudo: pam_unix(sudo:session): session opened for user root by villain(uid=0)
+Oct  4 13:31:09 villain-Lenovo-G580 su[3856]: Successful su for root by root
+Oct  4 13:31:09 villain-Lenovo-G580 su[3856]: + /dev/pts/1 root:root
+Oct  4 13:31:09 villain-Lenovo-G580 su[3856]: pam_unix(su:session): session opened for user root by villain(uid=0)
+Oct  4 13:33:21 villain-Lenovo-G580 su[3856]: pam_unix(su:session): session closed for user root
+Oct  4 13:33:21 villain-Lenovo-G580 sudo: pam_unix(sudo:session): session closed for user root
+Oct  4 13:46:58 villain-Lenovo-G580 su[5026]: Successful su for villain by root
+Oct  4 13:46:58 villain-Lenovo-G580 su[5026]: + ??? root:villain
+Oct  4 13:46:58 villain-Lenovo-G580 su[5026]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 13:46:58 villain-Lenovo-G580 su[5026]: pam_unix(su:session): session closed for user villain
+Oct  4 13:46:59 villain-Lenovo-G580 su[5037]: Successful su for villain by root
+Oct  4 13:46:59 villain-Lenovo-G580 su[5037]: + ??? root:villain
+Oct  4 13:46:59 villain-Lenovo-G580 su[5037]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 13:47:00 villain-Lenovo-G580 su[5037]: pam_unix(su:session): session closed for user villain
+Oct  4 13:50:09 villain-Lenovo-G580 su[5504]: Successful su for villain by root
+Oct  4 13:50:09 villain-Lenovo-G580 su[5504]: + ??? root:villain
+Oct  4 13:50:09 villain-Lenovo-G580 su[5504]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 13:50:10 villain-Lenovo-G580 su[5504]: pam_unix(su:session): session closed for user villain
+Oct  4 13:50:10 villain-Lenovo-G580 su[5515]: Successful su for villain by root
+Oct  4 13:50:10 villain-Lenovo-G580 su[5515]: + ??? root:villain
+Oct  4 13:50:10 villain-Lenovo-G580 su[5515]: pam_unix(su:session): session opened for user villain by (uid=0)
+Oct  4 13:50:11 villain-Lenovo-G580 su[5515]: pam_unix(su:session): session closed for user villain

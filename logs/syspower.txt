@@ -1,0 +1,1 @@
+Oct  4 03:08:27 villain-Lenovo-G580 systemd-logind[697]: System is powering down.

@@ -4,7 +4,7 @@
 Welcome to the sysmonitor wiki!<br>
 This project is developed by Ankit and Jyadeep as a part of Final year mini-project in BE.<br>
 This project is available as OPEN SOURCE.<br>
-To Run this project you need QtOpensource environment(32-bit).<br>
+To Run this project you need <a href="http://www.qt.io/download-open-source/">QtOpensource environment(32-bit).</a><br>
 To make things work<br>
 1) Download and extract files<br>
 2) goto sub-directory by # $cd ./logs/<br>

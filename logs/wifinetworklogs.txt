@@ -1,8 +1,0 @@
-Oct  4 03:04:25 villain-Lenovo-G580 NetworkManager[917]: <info> WiFi hardware radio set disabled
-Oct  4 03:04:25 villain-Lenovo-G580 NetworkManager[917]: <info> WiFi now disabled by radio killswitch
-Oct  4 03:05:30 villain-Lenovo-G580 NetworkManager[917]: <info> WiFi hardware radio set enabled
-Oct  4 03:05:30 villain-Lenovo-G580 NetworkManager[917]: <info> WiFi now enabled by radio killswitch
-Oct  4 11:56:10 villain-Lenovo-G580 NetworkManager[1038]: <info> WiFi enabled by radio killswitch; enabled by state file
-Oct  4 11:56:20 villain-Lenovo-G580 NetworkManager[1038]: <info> WiFi hardware radio set enabled
-Oct  4 13:46:50 villain-Lenovo-G580 NetworkManager[1038]: <info> WiFi hardware radio set disabled
-Oct  4 13:46:50 villain-Lenovo-G580 NetworkManager[1038]: <info> WiFi now disabled by radio killswitch

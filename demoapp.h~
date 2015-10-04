@@ -34,6 +34,10 @@ private slots:
 
     void on_pushButton_9_clicked();
 
+    void on_pushButton_10_clicked();
+
+    void on_commandLinkButton_clicked();
+
 private:
     Ui::demoapp *ui;
 };
